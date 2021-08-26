@@ -6,7 +6,7 @@ def infinity_from(x):
     yield from count(x)
     
  
-def filter_divisable_by(denominator: float) -> Callable[[Iterable], Iterable]:
+def divisable_by(denominator: float) -> Callable[[Iterable], Iterable]:
     def is_divisible(item: float) -> bool:
         return not bool(item % denominator)
     
