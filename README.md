@@ -1,4 +1,4 @@
 # Composition
 
 Functional Composition Syntactic Sugar
-Equivilent of Haskell's $ operator
+Equivalent of Haskell's $ operator
