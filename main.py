@@ -1,5 +1,5 @@
 from timer import measure_time
-from functional_utils import filter_divisable_by, infinity_from, power_by, until, get_n_items
+from functional_utils import divisable_by, infinity_from, power_by, until, get_n_items
 from concat import APPLY
 if __name__ == "__main__":
     APPLY << print << '\n'.join << list << 'HELLO'
